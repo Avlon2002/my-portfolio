@@ -12,7 +12,7 @@ const Footer: React.FC = () => {
           </div>
           
           <div className="text-gray-500 text-sm font-light">
-            &copy; {new Date().getFullYear()} Divyani Kamburugamuwa. Built with React & AI.
+            &copy; {new Date().getFullYear()} Divyani Kamburugamuwa.
           </div>
           
           <div className="flex gap-6">

@@ -18,9 +18,9 @@ const Hero: React.FC = () => {
           </span>
         </div>
         
-        <h1 className="text-5xl md:text-8xl font-black font-display mb-6 tracking-tight leading-[1.1]">
-          AI Engineer &  <br />
-          <span className="gradient-text">Full-Stack Developer</span>
+        <h1 className="text-5xl md:text-6xl font-black font-display mb-6 tracking-tight leading-[1.1]">
+         Full-Stack Developer with  <br />
+          <span className="gradient-text">a focus on AI-driven solutions</span>
         </h1>
         
         <p className="text-lg md:text-xl text-gray-400 mb-10 max-w-2xl mx-auto font-light leading-relaxed">
