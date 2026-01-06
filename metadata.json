@@ -1,0 +1,7 @@
+{
+  "name": "Divyani Kamburugamuwa Portfolio",
+  "description": "A high-end, interactive portfolio for an Applied AI Engineer and Data Analyst, featuring 3D elements, smooth animations, and comprehensive project showcases.",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}
