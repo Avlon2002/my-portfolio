@@ -5,6 +5,27 @@ const Projects: React.FC = () => {
   const [filter, setFilter] = useState('All');
 
   const projects: Project[] = [
+
+    {
+      id: 'gov-pulse-platform',
+      title: 'Modern Citizen Case Management System',
+      category: 'Full-Stack',
+      description:
+        'GovPulse is a prototype designed to simulate the modernization of legacy government systems. It demonstrates how modern technologies (Scala, React) can integrate seamlessly with established legacy infrastructure (.NET) to deliver efficient citizen services.',
+      tech: ['.Net', 'C#', 'Scala', 'React', 'Web API','MongoDB','CSS3'],
+      image:
+        'https://images.unsplash.com/photo-1556155092-8707de31f9c4?auto=format&fit=crop&w=1200&q=80',
+      github: 'https://github.com/Avlon2002/gov-pulse-platform.git',
+      demo: 'https://your-demo-link.com',
+      highlights: [
+        'Citizen Portal (Frontend): A ReactJS dashboard where citizens submit permit applications.',
+        'Modern Case Processor (Middleware): A Scala (Akka HTTP) microservice that handles asynchronous processing and high-volume requests.',
+        'Legacy Identity Service (Backend): A .NET 8 Web API acting as the "System of Record" for citizen data.',
+        'MongoDB: Stores case files and application status (Unstructured).',
+        'In-Memory/SQL: Stores citizen identity records (Structured).',
+      ],
+    },
+
     {
       id: 'invoice-saas',
       title: 'SaaS Invoice Dashboard',
@@ -14,7 +35,7 @@ const Projects: React.FC = () => {
       tech: ['Next.js', 'TypeScript', 'Supabase', 'PostgreSQL', 'Tailwind CSS'],
       image:
         'https://images.unsplash.com/photo-1556155092-8707de31f9c4?auto=format&fit=crop&w=1200&q=80',
-      github: 'https://github.com/your-username/invoice-dashboard',
+      github: 'https://github.com/Avlon2002/invoice-dashboard.git',
       demo: 'https://your-demo-link.com',
       highlights: [
         'Designed a scalable PostgreSQL schema using JSONB for dynamic invoice line items.',
@@ -32,7 +53,7 @@ const Projects: React.FC = () => {
       tech: ['Python', 'LangChain', 'FAISS', 'Azure OpenAI'],
       image:
         'https://images.unsplash.com/photo-1677442136019-21780ecad995?auto=format&fit=crop&w=1200&q=80',
-      github: 'https://github.com/your-username/rag-engine',
+      github: 'https://github.com/Avlon2002/Enterprise-RAG-Retrieval-Augmented-Generation.git',
       highlights: [
         'Built ingestion pipelines to chunk and embed unstructured enterprise documents.',
         'Implemented FAISS-based semantic search for low-latency retrieval.',
@@ -65,7 +86,7 @@ const Projects: React.FC = () => {
       tech: ['Python', 'Django', 'OpenCV'],
       image:
         'https://images.unsplash.com/photo-1581090700227-1e37b190418e?auto=format&fit=crop&w=1200&q=80',
-      github: 'https://github.com/your-username/exam-proctoring',
+      github: 'https://github.com/Avlon2002/Exam-Proctoring-System.git',
       highlights: [
         'Implemented real-time face detection and gaze tracking using OpenCV.',
         'Automatically flagged suspicious behavior using ML heuristics.',
