@@ -14,6 +14,7 @@ const Skills: React.FC = () => {
         { name: 'NLP & Semantic Search' },
         { name: 'Prompt Engineering' },
         { name: 'OpenCV (Computer Vision)' },
+        
       ],
     },
     {
@@ -23,9 +24,11 @@ const Skills: React.FC = () => {
         { name: 'Python (FastAPI / Django)' },
         { name: 'JavaScript / TypeScript' },
         { name: 'React / Next.js' },
+        { name: 'C#' },
         { name: 'Tailwind CSS' },
         { name: 'Streamlit' },
         { name: 'Client-Side State & Form Logic' },
+
       ],
     },
     {
@@ -37,6 +40,10 @@ const Skills: React.FC = () => {
         { name: 'Supabase (PostgreSQL)' },
         { name: 'Authentication & Authorization' },
         { name: 'JSONB Data Modeling' },
+        { name: 'Scala' },
+        { name: 'Web API' },
+        { name: 'MongoDB' },
+        
       ],
     },
     {
