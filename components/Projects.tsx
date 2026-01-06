@@ -14,7 +14,7 @@ const Projects: React.FC = () => {
         'GovPulse is a prototype designed to simulate the modernization of legacy government systems. It demonstrates how modern technologies (Scala, React) can integrate seamlessly with established legacy infrastructure (.NET) to deliver efficient citizen services.',
       tech: ['.Net', 'C#', 'Scala', 'React', 'Web API','MongoDB','CSS3'],
       image:
-        'https://images.unsplash.com/photo-1556155092-8707de31f9c4?auto=format&fit=crop&w=1200&q=80',
+        'https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=1200&q=80',
       github: 'https://github.com/Avlon2002/gov-pulse-platform.git',
       demo: 'https://your-demo-link.com',
       highlights: [
@@ -86,7 +86,7 @@ const Projects: React.FC = () => {
       tech: ['Python', 'Django', 'OpenCV'],
       image:
         'https://images.unsplash.com/photo-1581090700227-1e37b190418e?auto=format&fit=crop&w=1200&q=80',
-      github: 'https://github.com/Avlon2002/Exam-Proctoring-System.git',
+      github: '',
       highlights: [
         'Implemented real-time face detection and gaze tracking using OpenCV.',
         'Automatically flagged suspicious behavior using ML heuristics.',
